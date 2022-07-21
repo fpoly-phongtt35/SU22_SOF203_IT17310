@@ -23,7 +23,6 @@ public class SampleCRUD {
     public static void main(String[] args) throws SQLException {
         //add();
         update("IT17310 PS", 5012);
-        
         List<Product> products = read();
         for(Product product : products) {
             System.out.println(product);
